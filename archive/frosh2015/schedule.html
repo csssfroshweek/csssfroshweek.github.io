@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>CSSS FroshWeek 2015</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+          <!-- CSSS FroshWeek Stylings -->
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bs-overrides.css" rel="stylesheet">
+
+    </head>
+    <body>
+        <!-- Navigation Section -->
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <!-- Navigation Header -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1">
+                        <span class="sr-only">Navigation Toggle</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                   <a class="navbar-brand" href="http://csss.cs.sfu.ca"><img src="img/CSSSFinalLogoMini.png" alt="CSSS"></a>
+                </div>
+
+                <!-- Nav links -->
+                <div class="collapse navbar-collapse" id="navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="index.html" class="active">Home</a></li>
+                        <li><a href="schedule.html">Schedule</a></li>
+                        <li><a href="registration.html">Registration</a></li>
+                        <li><a href="faq.html">FAQ</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                        <li><a href="sponsors.html">Sponsors</a><li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Content Section -->
+        <div class="container-fluid">
+            <div class="row-fluid">                
+                <div class="col-xs-12 col-md-8 col-md-offset-2">
+                    <h1>Schedule</h1>
+                    <div class="table-responsive">
+			<table class="table">
+				<thead>
+					<tr class="table-title">
+						<th>Time</th>
+						<th id="tue">Tuesday (Sept. 8)</th>
+						<th id="wed">Wednesday (Sept. 9)</th>
+						<th id="thu">Thursday (Sept. 10)</th>
+						<th id="fri">Friday (Sept. 11)</th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td>8:30 am</td>
+						<td header="tue" class="schedule-nothing"></td>
+						<td header="wed" class="schedule-class">MATH 150/151</td>
+						<td header="thu" class="schedule-nothing"></td>
+						<td header="fri" class="schedule-class">MATH 150/151</td>
+					</tr>
+
+					<tr>
+						<td>9:30 am</td>
+						<td header="tue" class="schedule-nothing"></td>
+						<td header="wed" class="schedule-nothing"></td>
+						<td header="thu" class="schedule-class" rowspan="2">CMPT 120/125</td>
+						<td header="fri" class="schedule-nothing"></td>
+					</tr>
+
+					<tr>
+						<td>10:30 am</td>
+						<td header="tue" class="schedule-class">CMPT 120/125 D100</td>
+						<td header="wed" class="schedule-nothing"></td>
+						<td header="fri" class="schedule-nothing"></td>
+					</tr>
+
+					<tr>
+						<td>11:30 am</td>
+						<td header="tue" class="schedule-class">MACM 101 D100</td>
+						<td header="wed" class="schedule-event" rowspan="2"><a href="#Coop">Co-op Luncheon and Information Session</a></td>
+						<td header="thu" class="schedule-class">MACM 101 D100</td>
+						<td header="fri" class="schedule-nothing"></td>
+					</tr>
+
+					<tr>
+						<td>12:30 pm</td>
+						<td header="tue" class="schedule-event" rowspan="2"><a href="#Registration">BBQ &amp; RAMing Ceremony</a></td>
+						<td header="thu" class="schedule-event" rowspan="2"><a href="#Stencyl">Stencyl Workshop</a></td>
+						<td header="fri" class="schedule-event" rowspan="4"><a href="#Stencyl">Stencyl Workshop</a></td>
+					</tr>
+
+					<tr>
+						<td>1:30 pm</td>
+						<td header="wed" class="schedule-event" rowspan="3">Survival Training</td>
+					</tr>
+
+					<tr>
+						<td>2:30 pm</td>
+                                                <td header="tue" class="schedule-class" rowspan="2">CMPT 120 D200</td>
+						<td header="thu" class="schedule-class">CMPT 120 D200</td>
+					</tr>
+
+					<tr>
+						<td>3:30 pm</td>
+						<td header="thu" class="schedule-nothing"></td>
+					</tr>
+
+					<tr>
+						<td>4:30 pm</td>
+						<td header="tue" class="schedule-event" rowspan="2"><a href="#Stencyl">Stencyl Workshop</a></td>
+						<td header="wed" class="schedule-event" rowspan="2"><a href="#Stencyl">Stencyl Workshop</a></td>
+                                                <td header="thu" class="schedule-event" rowspan="5"><a href="#PacMacro">Pac Macro</a></td>
+                                                <td header="fri" class="schedule-event" rowspan="5"><a href="#PhotoHunt">Photohunt</a></td>
+					</tr>
+
+
+					<tr>
+						<td>5:30 pm</td>
+					</tr>
+
+					<tr>
+						<td>6:30 pm</td>
+						<td header="tue" class="schedule-nothing"></td>
+						<td header="wed" class="schedule-nothing"></td>
+					</tr>
+
+					<tr>
+						<td>7:30 pm</td>
+						<td header="tue" class="schedule-nothing"></td>
+						<td header="wed" class="schedule-nothing"></td>
+					</tr>
+
+					<tr>
+						<td>8:30 pm</td>
+						<td header="tue" class="schedule-nothing"></td>
+						<td header="wed" class="schedule-nothing"></td>
+					</tr>
+
+					<tr>
+						<td>9:30 pm</td>
+						<td header="tue" class="schedule-nothing"></td>
+						<td header="wed" class="schedule-nothing"></td>
+						<td header="thu" class="schedule-event" rowspan="2"><a href="#TeamDinner">Dinner Downtown</a></td>
+						<td header="fri" class="schedule-event" rowspan="2"><a href="#Madness">Midnight Madness</a></td>
+					</tr>
+					
+					<tr>
+						<td>10:30 pm</td>
+						<td header="tue" class="schedule-nothing"></td>
+						<td header="wed" class="schedule-nothing"></td>
+					</tr>
+
+				</tbody>
+			</table>
+                    </div>
+                    </div>
+                </div>
+                
+                <div class="row-fluid">
+                    <div class="col-xs-12 col-md-8 col-md-offset-2 description">
+                            <h1>Events</h1>
+
+                            <h2 id="Registration">Registration and BBQ:</h2>
+                            <p class="location">Location: SFU Burnaby, ASB Atrium</p>
+                            <p>Whether you have registered online or are planning to register in person on this day, come out for a free BBQ and to meet some of your professors and other CS students for the first time. Look for the registration booth to get your t-shirt and swag before heading out for the feast..</p>
+
+                            <h2 id="Ceremony">RAM'ing Invocation Ceremony:</h2>
+                            <p class="location">Location: SFU Burnaby, TBA</p>
+                            <p>You, the few, the proud, the chosen shall be anointed with our token of fellowship as CS students. This ancient and mystical ceremony must be faced with awe and reverence!</p>
+
+                            <h2 id="Coop">Information Session:</h2>
+                            <p class="location">Location: SFU Burnaby, IRMACS Theatre</p>
+                            <p>Learn about Co-op, Computing Science, Women in Computing Science, and the Computing Science Student Society.  Learn about all the opportunities open you and what to look forward to in your four (or more) years at SFU.  Food and refreshments will be provided as you have a chance to talk with the computing science students and co-op advisors.</p>
+
+                            <h2 id="Survival">Survival Training:</h2>
+                            <p class="location">Location: AQ Gardens</p>
+                            <p>Surving your first year at SFU involves cunning, sttrategy, and the ability to dodge people in the hallways.  What better way to practice these skills then with a game of capture the flag!  Join others in your <span class="emphasis">House</span> and crush those that oppose you!</p>
+
+                            <h2 id="PhotoHunt">Photo Hunt:</h2>
+                            <p class="location">Location: Starts at SFU Burnaby, ASB Atrium. Goes downtown, returns to SFU Burnaby.</p>
+                            <p>There are so many strange things in our beautiful city, and now with our help we can show you even more and take pictures of it too! Perhaps there will also be a secret mission on behalf of your <span class="emphasis">House</span> that needs completition. Want to know more? Well, you'll just have to wait, won't you.</p>
+
+                            <h2 id="TeamDinner">Team Strategy Dinner:</h2>
+                            <p class="location">Location: SFU Burnaby, Club Ilia</p>
+                            <p>As you lick your wounds from the field of battle, know that it was but a small rehearsal in a larger campaign. As you sit amongst your brethren, fill your stomach with food so that it may prepare you for the events that lay ahead of you. Discuss strategy and seek wisdom from your leaders. Above all, prepare yourself for a long night of hunting, cheering and celebration as you will match wits with yourself, your peers and most dastardly of all: the filthy engineers.</p>
+
+                            <h2 id="Madness">Midnight Madness:</h2>
+                            <p class="location">Location: SFU Burnaby, ASB Atrium + TASC 9204</p>
+                            <p>Learn the joy of all-nighters with all of the fun and none of the work! First, help us to once again crush the Engineers in our Frosh Slurpee drink-off, dodgeball game, and tug-of-war. We'll then proceed to keep you up all night with an adrenaline filled race around campus containing copious quantities of games (both video and non), more random prize opportunities and other such mischief. Make sure to tell your parents not to wait up. You'll be... studying... This event goes all night so prepare to be at SFU till the early hours of the morning on Saturday. Prizes will be given out in the middle of the night for the points you earned during the week, so make sure to stay in order to guarantee yourself something nice.</p>	
+                            
+                            <h2 id="Stencyl">Stencyl Workshop:</h2>
+                            <p class="location">Location: SFU Burnaby, TBD</p>
+                            <p>Intended for new students with <strong>zero</strong> experience in programming, this series of progressive workshops will introduce you to general programming concepts without having to worry about syntax and other issues.  Work together with your <span class="emphasis">House</span> to plan out and create a simple 2D game.  At the end of the week, you get to play the games that everyone else made!</p>
+                            
+                        </div> <!-- end of col -->
+                    </div><!-- end of row-fluid -->
+		
+                </div>
+        </div> <!-- end container-fluid -->
+       
+            
+        <footer class="footer">
+            <div class="container-fluid">
+                <div class="col-xs-8 col-md-8">
+                    <p class="text-muted">&copy; Copyright 2015 - <a href="http://csss.cs.sfu.ca/">Computing Science Student Society</a></p> 
+                </div>
+            </div>
+        </footer>
+
+
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>
