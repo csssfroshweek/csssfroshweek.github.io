@@ -1,0 +1,26 @@
+<hr>
+
+<p class="lead">
+<div class="container-fluid">
+<div class="row">
+<div class="col-xs-4">
+<center>
+<a class="btn btn-success btn-lg" href="https://github.com/CSSS/public-docs/raw/master/constitutions/Constitution_August_2015.pdf"><span class="glyphicon glyphicon-book"></span> CSSS Constitution</a> <br>(curr. Aug 2015)
+</center>
+</div>
+
+<div class="col-xs-4">
+<center>
+<a class="btn btn-primary btn-lg" href="https://github.com/CSSS/public-docs/raw/master/policies/Policies_2015_September.pdf"><span class="glyphicon glyphicon-list-alt"></span> CSSS Policies</a> <br>(curr. Sept 29, 2015)
+</center>
+</div>
+
+<div class="col-xs-4">
+<center>
+<a class="btn btn-warning btn-lg" href="https://github.com/CSSS/minutes"><span class="glyphicon glyphicon-folder-open"></span> Meeting Minutes </a> <br>(curr. Oct 2015)
+</center>
+</div>
+
+</div>
+</div>
+</p>
