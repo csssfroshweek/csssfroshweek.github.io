@@ -2597,8 +2597,8 @@ fieldset[disabled] .btn-info.active {
 
 .btn-warning {
     color: #fff;
-    background-color: ##914220;
-    border-color: ##914220;
+    background-color: #914220;
+    border-color: #914220;
 }
 
 .btn-warning:hover,
