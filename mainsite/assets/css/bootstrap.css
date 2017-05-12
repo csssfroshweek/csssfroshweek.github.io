@@ -2597,13 +2597,13 @@ fieldset[disabled] .btn-info.active {
 
 .btn-warning {
     color: #fff;
-    background-color: #3276b1;
-    border-color: #285e8e;
+    background-color: #914220;
+    border-color: #914220;
 }
 
 .btn-warning:hover {
-    background-color: #914220;
-    border-color: #914220;
+    background-color: #3276b1;
+    border-color: #285e8e;
 }
 
 .btn-warning:focus,
