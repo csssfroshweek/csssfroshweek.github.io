@@ -2602,8 +2602,8 @@ fieldset[disabled] .btn-info.active {
 }
 
 .btn-warning:hover {
-    background-color: #3276b1;
-    border-color: #285e8e;
+    background-color: #4E4E7C;
+    border-color: #4E4E7C;
 }
 
 .btn-warning:focus,
