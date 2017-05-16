@@ -21,14 +21,12 @@ COMMING SOON PAGE
     function setDate() {
         var now = new Date();
         if (launch < now) {
-            console.log("first if");
             days.html('<h1>0</H1><p>Day</p>');
             hours.html('<h1>0</h1><p>Hour</p>');
             minutes.html('<h1>0</h1><p>Minute</p>');
             seconds.html('<h1>0</h1><p>Second</p>');
             message.html('OUR SITE IS NOT READY YET...');
         } else {
-            console.log("second else");
             var s = -now.getTimezoneOffset() * 60 + (launch.getTime() - now.getTime()) / 1000;
             var d = Math.floor(s / 86400);
             days.html('<h1>' + d + '</h1><p>Day' + (d > 1 ? 's' : ''), '</p>');
