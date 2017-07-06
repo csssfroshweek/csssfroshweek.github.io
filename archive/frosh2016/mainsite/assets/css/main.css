@@ -82,8 +82,8 @@ body {
 html,
 body {
     height: 100%;
-    color: #101010;
-    background-color: white;
+    color: white;
+    background-color: black;
 }
 
 body {
@@ -130,7 +130,7 @@ border: 0px solid transparent;
 
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li > a:focus {
-	background-color: #16a085 !important;
+	background-color: #16a085;
 	color: white;
 }
 
@@ -239,7 +239,7 @@ blockquote cite:before {
 
 /* Links */
 a {
-    color: #23235C;
+    color: #3498db;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -380,7 +380,7 @@ a:after {
     background-size: cover;
 
     background-attachment: relative;
-
+    
     text-align: center;
 }
 
@@ -399,7 +399,7 @@ a:after {
 /* Section Dividers Backgrounds */
 
 .divider1 {
-
+	
 }
 
 .divider2 {
@@ -407,11 +407,11 @@ a:after {
 }
 
 .divider3 {
-
+	
 }
 
 .divider4 {
-
+	
 }
 
 .divider6 {
@@ -502,7 +502,7 @@ a:after {
 	font-weight: 700;
 	text-align: left;
 	letter-spacing: 2px;
-
+	
 }
 
 .grid figcaption a {
@@ -577,7 +577,7 @@ a:after {
 	background: #2b2b2b;
 	padding-right: 0px;
 	padding-left: 0px;
-
+	
 }
 
 .blog-bg h4 {
@@ -652,17 +652,17 @@ td a {
 
 .schedule-nothing {
         border: thin solid black;
-
+    
 }
 
 .schedule-event {
-	color: #FFFFFF;
-	background-color: #23235C;
+	color: #FFFFFF;    
+	background-color: #e88530;
 }
 
 .schedule-class {
-	background-color: #e88530;
-	color: #FFFFFF;
+	background-color: #1e8eaf;
+	color: #FFFFFF;	
 }
 
 .table-schedule tr:nth-child(even) {
@@ -670,11 +670,11 @@ td a {
 }
 
 .table-schedule tr:nth-child(odd) {
-
+    
 }
 
 .table-title {
-	background-color: #23235C;
+	background-color: #e88530;
 	color: #FFFFFF;
 }
 
@@ -700,7 +700,7 @@ td a {
 /* Sponsors */
 h3 {
     color: white;
-    background-color: #23235C;
+    background-color: #1e8eaf;
     padding: 5px;
 }
 
@@ -712,3 +712,7 @@ h3 {
     background-color: #e88530;
     padding: 5px;
 }
+
+
+
+
