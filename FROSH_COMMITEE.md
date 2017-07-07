@@ -6,5 +6,4 @@ Web Programmer: Jace Manshadi
 ## Other members of Frosh Commitee:
 David Miiller [CSSS President]  
 Henry Zhao [CSSS Director of Communcations]  
-Asian Joe
-
+Kevin Yu
