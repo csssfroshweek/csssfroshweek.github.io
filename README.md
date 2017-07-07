@@ -6,4 +6,5 @@ To work on a new Frosh week site for a new year
 		mainsite  
 		assets  
 		index.html  
+ 3. Now you will also need to take the archive folder you just created and copy it over to the archive repository on the main CSSS froshweek-archive-repo, located [here](https://github.com/CSSS/froshweek-site-archives)
  3. Now you can work on the live site with the files index.html and mainsite/frosh.html
