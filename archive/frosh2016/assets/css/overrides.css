@@ -1,7 +1,7 @@
 /* Overrides for the various template, bootstrap, and soon.css elements */
 
 body {
-  background-color: black;  
+  background-color: white;
 }
 
 hr {
@@ -31,6 +31,21 @@ hr {
 
 #slider li {
     height: 50%;
+}
+
+.calendar-container {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+.calendar-container iframe {
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
 
 .timer_box, .timer_box h1 {
@@ -87,20 +102,20 @@ hr {
 }
 
 h1 {
-    color:   #1E8EAF;
+    color:   #23235C;
 }
 
 .navbar-inverse {
-    background-color: #1E8EAF;
-    border-color: #1E8EAF;
+    background-color: #23235C;
+    border-color: #23235C;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus{
-    background-color: #1E8EAF;
+    background-color: #4E4E7C;
 }
 
 .navbar-header  a img {
-    background-color: #1E8EAF;
+    background-color: #23235C;
 }
 
 
@@ -113,7 +128,7 @@ h1 {
 }
 
 .carousel-indicators li{
-	border:2px solid #1e8eaf;
+	border:2px solid #23235C;
 }
 
 .carousel-indicators .active{
@@ -128,7 +143,7 @@ h1 {
 
 
 .popover, .popover-title, .popover-content {
-    background-color: black;
+    background-color: white;
     border: thin solid #e88530;
     border-shadow: none;
 }
@@ -157,9 +172,8 @@ h1 {
 /* main.css overrides */
 
 #footerwrap, #footerwrap a {
-    background-color: #1E8EAF;
+    background-color: #23235C;
     color: white;
     margin-top: 10px;
     padding-bottom: 5px;
 }
-

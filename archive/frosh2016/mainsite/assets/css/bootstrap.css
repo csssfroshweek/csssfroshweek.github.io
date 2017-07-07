@@ -264,7 +264,7 @@ th {
 }
 
 i {
- color: #1e8eaf;   
+ color: #23235C;
 }
 
 
@@ -2042,8 +2042,8 @@ fieldset[disabled] .btn {
 }
 .btn-default {
   color: #333;
-  background-color: #000000;
-  border-color: #ccc;
+  background-color: white;
+  border-color: lightgrey;
 }
 .btn-default:hover,
 .btn-default:focus,
@@ -2051,8 +2051,8 @@ fieldset[disabled] .btn {
 .btn-default.active,
 .open .dropdown-toggle.btn-default {
   color: #333;
-  background-color: #e88530;
-  border-color: #adadad;
+  background-color: #ECECEC;
+  /*border-color: #adadad;*/
 }
 .btn-default:active,
 .btn-default.active,
@@ -5837,4 +5837,3 @@ td.visible-print {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-
