@@ -26,7 +26,9 @@ body {
     line-height: 1.4;
 }
 
-
+* {
+ font-family: Calibri;
+}
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
  * These selection rule sets have to be separate.
@@ -411,9 +413,7 @@ a:after {
 
 .divider4 {}
 
-.divider6 {
-    height: 70%;
-}
+.divider6 {}
 
 
 /* ==========================================================================
