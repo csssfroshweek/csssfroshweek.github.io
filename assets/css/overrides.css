@@ -109,6 +109,10 @@ hr {
     height: 150px;
 }
 
+.discord-img-square {
+    border-radius: 5px;
+}
+
 h1 {
     color: #23235C;
 }
