@@ -98,6 +98,8 @@ hr {
 .silicon {
     width: 200px;
     margin-bottom: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 
@@ -107,6 +109,12 @@ hr {
     border-radius: 5px;
     width: 150px;
     height: 150px;
+}
+
+.discord-img-square {
+    border-radius: 5px;
+    width: 67px;
+    height: 67px;
 }
 
 h1 {
