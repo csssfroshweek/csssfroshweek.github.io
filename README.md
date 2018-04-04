@@ -10,4 +10,7 @@ To work on a new Frosh week site for a new year
  3. Now you can work on the live site with the files index.html and mainsite/frosh.html. Be sure to also update FROSH_COMMITTEE.md with the current frosh commitee to leave a track of the people working on Frosh for future reference  
   
 The google drive documents that have been used to plan frosh are located on the official CSSS Google Drive. To access them please send a request email to the Systems Administrator at csss-sysadmin@sfu.ca
+
+# Other Information
+[List of Committee Memebers](FROSH_COMMITTEE.md)
  
