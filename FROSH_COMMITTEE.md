@@ -4,6 +4,4 @@ Web Programmer: Jace Manshadi
 
 ## Other Members of the Frosh 2018 Committee
 Mitchell Gale
-David Miiller [CSSS President]
-Henry Zhao [CSSS Director of Communcations]
 
