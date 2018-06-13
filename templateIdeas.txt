@@ -3,3 +3,5 @@ https://templated.co/spatial
 https://colorlib.com/wp/template/evento/
 https://templated.co/roadtrip
 https://templated.co/broadcast
+
+I think we can just pull different parts of these templates because I don't feel like anyone one of them fits our needs. 
