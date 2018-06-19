@@ -13,6 +13,4 @@
     $('#navbar-main [href=#]').click(function (e) {
         e.preventDefault()
     })
-
-
 };
