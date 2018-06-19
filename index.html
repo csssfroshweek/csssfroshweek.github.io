@@ -11,13 +11,13 @@
     <link rel="shortcut icon" href="mainsite/assets/img/team/Frosh-2017-Theme-Favicon.ico">
 
     <title>Computing Science Student Society Frosh 2018</title <!-- Bootstrap core CSS -->
-    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <link href="{% static 'frosh/css/bootstrap.css' %}" rel="stylesheet">
 
     <!-- Custom styles for this template -->
-    <link href="assets/css/soon.css" rel="stylesheet">
+    <link href="{% static 'frosh/css/soon.css' %}" rel="stylesheet">
 
     <!-- Overrides for everything -->
-    <link href="assets/css/overrides.css" rel="stylesheet">
+    <link href="{% static 'frosh/css/overrides.css' %}" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
@@ -70,7 +70,7 @@
             <!-- START TIMER -->
 
             <div class="row">
-                <img class="img-responsive center-block" src="assets/img/FROSH_THEME_2018.png">
+                <img class="img-responsive center-block" src="{% static 'frosh/img/FROSH_THEME_2018.jpg' %}">
             </div>
 
             <div class="row">
@@ -114,11 +114,11 @@
             </script>
             <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous">
             </script>
-            <script type="text/javascript" src="assets/js/modernizr.custom.js"></script>
-            <script src="assets/js/bootstrap.js"></script>
-            <script src="assets/js/soon/plugins.js"></script>
-            <script src="assets/js/soon/jquery.themepunch.revolution.min.js"></script>
-            <script src="assets/js/soon/custom.js"></script>
+            <script type="text/javascript" src="{% static 'frosh/js/modernizr.custom.js' %}"></script>
+            <script src="{% static 'frosh/js/bootstrap.js' %}"></script>
+            <script src="{% static 'frosh/js/soon/plugins.js' %}"></script>
+            <script src="{% static 'frosh/js/soon/jquery.themepunch.revolution.min.js' %}"></script>
+            <script src="{% static 'frosh/js/soon/custom.js' %}"></script>
 </body>
 <!-- END BODY -->
 
