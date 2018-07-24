@@ -1,16 +1,15 @@
-# CSSS FROSH Week Site
-
-To work on a new Frosh week site for a new year  
- 1. create a new folder in archive to store the code used for last year's site. Follow the convention of folder naming already in the archive folder [e.g. "frosh\<year\>"]  
- 2. copy the following folders/files into the folder you just created in the archive folder:  
-		mainsite  
-		assets  
-		index.html  
-		FROSH_COMMITEE.md
- 3. Now you can work on the live site with the files index.html and mainsite/frosh.html. Be sure to also update FROSH_COMMITTEE.md with the current frosh commitee to leave a track of the people working on Frosh for future reference  
+# Deprecated CSSS FROSH Week Site
   
-The google drive documents that have been used to plan frosh are located on the official CSSS Google Drive. To access them please send a request email to the Systems Administrator at csss-sysadmin@sfu.ca
+This repo contains the csss frosh week websites from 2011 - 2017  
+This is being deprecated in favor of using http://sfucsss.org/frosh/  
 
-# Other Information
-[List of Committee Memebers](FROSH_COMMITTEE.md)
+The new repo that is holding the site until v3 of the CSSS site is available for deployment is located here: https://github.com/CSSS/csss-site    
+2011 -> https://csssfroshweek.github.io/archive/frosh2011/index.php  
+2012 -> https://csssfroshweek.github.io/archive/frosh2012/index.html  
+2013 -> https://csssfroshweek.github.io/archive/frosh2013/index.html  
+2014 -> https://csssfroshweek.github.io/archive/frosh2014/index.html  
+2015 -> https://csssfroshweek.github.io/archive/frosh2015/index.html  
+2015 -> https://csssfroshweek.github.io/archive/frosh2015_temp_site/index.html  
+2016 -> https://csssfroshweek.github.io/archive/frosh2016/mainsite/frosh.html  
+2017 -> https://csssfroshweek.github.io/archive/frosh2017/mainsite/frosh.html  
  
